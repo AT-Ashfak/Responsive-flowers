@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-normal {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+
 .display-flex {
     display: flex;
 }
@@ -29,8 +43,31 @@
     margin: 0 auto;
 }
 
+/* banner related styles */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+
+    margin-top: 280px;
+    margin: 0px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-image {
+    width: 100%;
+
+}
+
 .bg-all {
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
     background: rgb(245, 248, 255);
+}
+
+.tite {
+    color: rgb(233, 90, 8);
 }
