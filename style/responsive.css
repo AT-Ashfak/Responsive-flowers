@@ -41,11 +41,12 @@
 .banner {
     max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 /* banner related styles */
 .banner-content {
-    max-width: 850px;
+
     margin: 0 auto;
 
     margin-top: 280px;
@@ -70,4 +71,64 @@
 
 .tite {
     color: rgb(233, 90, 8);
+}
+
+/* main part */
+
+.mainn {
+    text-align: center;
+}
+
+.discription {
+    font-weight: 400;
+    text-align: center;
+    word-wrap: normal;
+}
+
+.headline {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.price {
+    color: rgb(17, 17, 17);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn {
+    align-items: center;
+    padding: 26px 50px 26px 50px;
+    background-color: rgb(233, 90, 8);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.img-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.written-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.between-gap {
+    bottom: 50px;
 }
